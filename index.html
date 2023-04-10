@@ -1,12 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="emre durgunlu">
+    <meta name="description" content="weather forecast">
+    <meta name="keywords" content="weather, temperature, humidity, wind, rainy, sunny, snowy">
+    <link href="img/pngegg.png" rel="icon">
+    <title>Weather App</title>
+    <style>
+        @import url("css/all.css");
+    </style>
 </head>
+
 <body>
-    
+    <div class="row h-50 justify-content-center">
+        <div class="col-xl-4 col-lg-6 col-md-12 d-flex justify-content-center">
+            <div class="dropdown">
+                <button id="selectedCountry" class="btn btn-primary dropdown-toggle fs-4" type="button"
+                    data-bs-toggle="dropdown" aria-expanded="true">
+                    Countries
+                </button>
+                <ul class="dropdown-menu mydropdown-menu-primary" id="menu-country"></ul>
+            </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-md-12 d-flex justify-content-center">
+            <div class="dropdown">
+                <button id="selectedCity" class="btn btn-secondary dropdown-toggle fs-4" type="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Cities
+                </button>
+                <ul class="dropdown-menu mydropdown-menu-secondary" id="menu-city"></ul>
+            </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-md-12 d-flex justify-content-center">
+            <div class="weather-report">
+                <h1 id="cityName"></h1>
+                <h2 id="cityTemp"></h2>
+                <img id="cityIcon" src="" />
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/custom/extra.js"></script>
 </body>
+
 </html>
