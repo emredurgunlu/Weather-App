@@ -2,6 +2,7 @@
  Vanilla JS - HTML 5 - CSS 3 - Bootstrap v5.3
 
 - fetch country and city names from [postman api](https://documenter.getpostman.com/view/1134062/T1LJjU52#2e131a94-a28e-4cfe-95fe-d10c0e40eae7) 
+- https://weather-app-omega-bay.vercel.app/
 
 
 
